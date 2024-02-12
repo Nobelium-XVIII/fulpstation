@@ -358,7 +358,7 @@
 	dir = 9
 	},
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "ahH" = (
 /obj/machinery/power/smes/engineering,
 /obj/structure/cable,
@@ -366,7 +366,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "ahY" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Medbay Maintenance"
@@ -5460,7 +5460,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "cBM" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
@@ -5472,7 +5472,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "cBN" = (
 /obj/machinery/duct,
 /obj/machinery/light_switch/directional/south,
@@ -7240,7 +7240,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "dtu" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -15370,7 +15370,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "hoK" = (
 /turf/closed/wall/r_wall,
 /area/station/hallway/primary/aft)
@@ -20139,7 +20139,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "jSa" = (
 /obj/structure/table/reinforced/rglass,
 /obj/effect/turf_decal/trimline/blue/line{
@@ -21288,7 +21288,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "kvN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -22239,7 +22239,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "kTR" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -28362,6 +28362,10 @@
 /obj/effect/mapping_helpers/airalarm/engine_access,
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/effect/mapping_helpers/airalarm/tlv_no_checks,
+/obj/effect/mapping_helpers/airalarm/link{
+	chamber_id = "engine"
+	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "oiI" = (
@@ -28371,7 +28375,7 @@
 	dir = 6
 	},
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "oiU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -28434,7 +28438,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "olm" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 1
@@ -32772,7 +32776,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "qBR" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -33093,7 +33097,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "qKg" = (
 /obj/effect/turf_decal/box/white,
 /obj/structure/closet/crate/mail,
@@ -35344,6 +35348,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/obj/effect/mapping_helpers/airalarm/link,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "rTX" = (
@@ -35506,7 +35511,7 @@
 	dir = 5
 	},
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "rZj" = (
 /obj/machinery/mech_bay_recharge_port{
 	dir = 8
@@ -36088,12 +36093,12 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "soB" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "soC" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -40124,8 +40129,6 @@
 /obj/machinery/meter,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/effect/mapping_helpers/apc/cell_10k,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "uEo" = (
@@ -41772,7 +41775,7 @@
 	dir = 10
 	},
 /turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
+/area/station/engineering/main)
 "vuo" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -62987,11 +62990,11 @@ vQV
 vQV
 vQV
 vQV
-aOC
+gwr
 soB
 soB
 soB
-aOC
+gwr
 kEU
 jiS
 dmv
@@ -63244,7 +63247,7 @@ vPr
 vPr
 vPr
 aOC
-aOC
+gwr
 ahv
 hoJ
 vtq
@@ -63501,11 +63504,11 @@ coN
 coN
 qgm
 xSF
-aOC
+gwr
 qKf
 kTJ
 kvy
-vPr
+vxG
 kvN
 jiS
 bFv
@@ -63758,11 +63761,11 @@ nRt
 nRt
 nRt
 aEg
-aOC
+gwr
 qBF
 kTJ
 dsw
-vPr
+vxG
 kvN
 jiS
 tMK
@@ -64015,11 +64018,11 @@ fwc
 nSG
 fwc
 cfI
-aOC
+gwr
 ahH
 kTJ
 jRS
-vPr
+vxG
 kvN
 dmv
 uVb
@@ -64272,7 +64275,7 @@ nVb
 nVb
 gVX
 jDU
-aOC
+gwr
 rYQ
 soz
 oiI
@@ -64529,12 +64532,12 @@ vPr
 vPr
 vPr
 xYE
-aOC
-vPr
+gwr
+vxG
 cBL
-vPr
-aOC
-aOC
+vxG
+gwr
+gwr
 kvN
 jiS
 uVb
