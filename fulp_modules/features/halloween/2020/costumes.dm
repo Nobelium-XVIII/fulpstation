@@ -386,7 +386,7 @@
 
 ///Gnoming stuff
 /datum/mood_event/gnomed
-	description = span_warning("I can't believe I got gnomed...")
+	description = "<span class='warning'>I can't believe I got gnomed!...</span>\n"
 	mood_change = -2
 	timeout = 5 MINUTES
 
